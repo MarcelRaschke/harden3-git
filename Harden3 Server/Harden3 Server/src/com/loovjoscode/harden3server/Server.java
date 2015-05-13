@@ -1,6 +1,7 @@
 package com.loovjoscode.harden3server;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.URL;
@@ -9,7 +10,8 @@ import java.util.logging.Level;
 public class Server {
 	public static Logger log = new Logger("Server");
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
+		//trololololol
 		String ip = getIp();
 		log.log("Your ip is " + ip);
 		
